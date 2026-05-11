@@ -1,0 +1,23 @@
+# Mac系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode配置
+.vscode/settings.json
+
+# PyTorch模型文件和检查点
+*.pth
+*.pt
+*.bin
+checkpoint_*
+best_model.*
+final_model.*
+
+# 数据集文件（MNIST等）
+test_pytorch/data/
+t10k-*
+train-*
+*.gz
+*.idx3-ubyte
+*.idx1-ubyte
