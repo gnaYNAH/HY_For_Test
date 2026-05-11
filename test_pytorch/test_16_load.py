@@ -97,11 +97,7 @@ loaded_model.eval()
 # 构造单条测试输入
 test_input = torch.randn(1, 10).to(DEVICE)
 
-<<<<<<< HEAD
 # 推理时关闭梯度计算，极致节省Mac内存
-=======
-# 推理时关闭梯度计算，极致节省Mac内存，，，，，，
->>>>>>> f5d10e9 (init: 初始化项目，提交所有测试代码1)
 with torch.no_grad():
     test_output = loaded_model(test_input)
 
